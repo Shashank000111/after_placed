@@ -6,15 +6,15 @@ class LoginPage(SeleniumWrapper):
         super().__init__(driver)
 
     locators = read_locators("loginpage")
-    def enter_email(self, email):
+    def login_enter_email(self, email):
         element = LoginPage.locators['txt_email']  #("id","Email")
         self.enter_text(element, value=email)
 
-    def enter_password(self, password):
+    def login_enter_password(self, password):
         element = LoginPage.locators['txt_password']
         self.enter_text(element, value=password)
 
-    def click_login(self):
+    def login_click_login(self):
         element = LoginPage.locators['btn_login']
         self.click_element(element)
 
