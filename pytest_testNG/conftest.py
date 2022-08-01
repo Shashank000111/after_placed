@@ -23,4 +23,3 @@ def hello():
     print("hello world")
     yield "hi there"
     print("Bye world")
-n
