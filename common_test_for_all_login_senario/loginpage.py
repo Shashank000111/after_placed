@@ -35,5 +35,5 @@ class LoginPage(SeleniumWrapper):
 #
 #     def click_login(self):
 #         self.click_element(LoginPage.btn_login)
-
+print()
 
