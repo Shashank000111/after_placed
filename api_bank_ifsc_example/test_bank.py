@@ -6,7 +6,7 @@ headers = "code, expected_branch"
 
 data = [
     ("HDFC0001755", "100 FEET ROAD-INDIRA NAGAR"),
-    ("SBIN0040014", "GANDHI BAZZAR"),
+    ("SBIN0040014", "BASAVANAGUDI"),
     ("ICIC0000002", "BANGALORE - M G ROAD")
 ]
 
